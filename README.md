@@ -9,7 +9,6 @@ Atualmente, foco meu desenvolvimento na área de Sistemas para Internet, buscand
   </a>
 
   <a href="https://github.com/RailanTavares/Plate-editor-pro">
-    <img alt="total stars" title="Total de estrelas no GitHub" src="https://custom-icon-badges.demolab.com/github/stars/RailanTavares/Plate-editor-pro?color=55960c&style=for-the-badge&labelColor=488207&logo=star"/>
+    <img alt="total stars" title="Total de estrelas no GitHub" src="https://custom-icon-badges.demolab.com/github/stars/RailanTavares/Plate-editor-pro?color=ff69b4&style=for-the-badge&labelColor=d14789&logo=star"/>
   </a>
 </p>
-
