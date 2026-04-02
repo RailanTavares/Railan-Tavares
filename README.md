@@ -20,3 +20,6 @@ Atualmente, foco meu desenvolvimento na área de Sistemas para Internet, buscand
 </p>
 
 ---
+<p align="left">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=007BFF&height=50&section=header&text=Linguagens%20e%20Tecnologias&fontSize=25" />
+</p>
