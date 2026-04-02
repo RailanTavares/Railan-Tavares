@@ -1,4 +1,4 @@
-<img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/174a7f51-02d8-4f2f-b649-b0f0dd3e9cfe" />
+<img width="200" alt="image" src="https://github.com/user-attachments/assets/174a7f51-02d8-4f2f-b649-b0f0dd3e9cfe" />
 # Railan-Tavares
 Sou natural de Corrente, Piauí, e um entusiasta da tecnologia dedicado ao aprendizado contínuo. Minha trajetória profissional une uma base técnica sólida com uma visão educacional e estratégica, o que me permite encarar desafios de desenvolvimento de software com uma perspectiva diferenciada.
 Atualmente, foco meu desenvolvimento na área de Sistemas para Internet, buscando criar soluções eficientes, inovadoras e que resolvam problemas reais do cotidiano.
