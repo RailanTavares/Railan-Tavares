@@ -35,6 +35,15 @@ Atualmente, foco meu desenvolvimento na área de Sistemas para Internet, buscand
   <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" />
 </p>
 
+
+## 📊 Estatísticas do GitHub
+---
+
+<p align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=RailanTavares&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" alt="Estatísticas do GitHub de Railan Tavares"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RailanTavares&layout=compact&langs_count=7&theme=dracula" alt="Linguagens mais usadas por Railan Tavares"/>
+</p>
+
 ### 🗄️ Banco de Dados e Infraestrutura
 <p align="left">
   <img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white" />
