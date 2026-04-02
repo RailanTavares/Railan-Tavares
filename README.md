@@ -11,4 +11,8 @@ Atualmente, foco meu desenvolvimento na área de Sistemas para Internet, buscand
   <a href="https://github.com/RailanTavares/Plate-editor-pro">
     <img alt="total stars" title="Total de estrelas no GitHub" src="https://custom-icon-badges.demolab.com/github/stars/RailanTavares/Plate-editor-pro?color=ff69b4&style=for-the-badge&labelColor=d14789&logo=star"/>
   </a>
+
+  <a href="https://wa.me/5589999812492" target="_blank">
+    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"/>
+  </a>
 </p>
