@@ -4,82 +4,144 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio | Railan Tavares Marques</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <nav class="container">
-            <div class="logo">Railan.<span>dev</span></div>
-            <ul>
-                <li><a href="#home">Início</a></li>
-                <li><a href="#sobre">Sobre Mim</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <main>
-        <section id="home" class="hero">
-            <div class="container hero-content">
-                <h1>Desenvolvedor e Especialista em Sistemas para Internet</h1>
-                <p>Criando soluções eficientes e inovadoras para problemas reais do cotidiano, unindo sólida base técnica com visão estratégica de negócios.</p>
-                <a href="#projetos" class="btn-primary">Ver meus projetos</a>
+<header class="header">
+    <nav class="container nav">
+        <div class="logo">Railan.<span>TI</span></div>
+
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contato" class="btn-nav">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <h1>Desenvolvedor de Sistemas para Internet Movido pela curiosidade tecnológica</h1>
+            <p>
+                Construo soluções modernas, eficientes e escaláveis,
+                focadas em resolver problemas reais com tecnologia.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projetos" class="btn-primary">Ver projetos</a>
+                <a href="#contato" class="btn-secondary">Fale comigo</a>
             </div>
-        </section>
-
-        <section id="sobre" class="sessao-conteudo bg-light">
-            <div class="container grid-layout">
-                <div class="sobre-texto">
-                    <h2>Sobre Mim</h2>
-                    <p>Sou natural de Corrente, Piauí, e um entusiasta da tecnologia dedicado ao aprendizado contínuo. Minha trajetória profissional une uma base técnica sólida com uma visão educacional e estratégica, o que me permite encarar desafios de desenvolvimento de software com uma perspectiva diferenciada.
-Atualmente, foco meu desenvolvimento na área de Sistemas para Internet, buscando criar soluções eficientes, inovadoras e que resolvam problemas reais do cotidiano.</p>
-                </div>
-                
-                <div class="sobre-skills">
-                    <h3>Formação Acadêmica</h3>
-                    <ul class="lista-customizada">
-                        <li>Tecnologia em Sistemas para Internet – UPAPI / UESPI (Em andamento)</li>
-                        <li>Pós-Graduação em Informática na Educação – IFMG</li>
-                        <li>Licenciatura Plena em Pedagogia – UESPI (2019)</li>
-                        <li>Técnico em Informática – CEETI (2012)</li>
-                    </ul>
-
-                    <h3>Habilidades Técnicas</h3>
-                    <div class="tags-skills">
-                        <span>Python</span>
-                        <span>JavaScript</span>
-                        <span>SQL</span>
-                        <span>Flask</span>
-                        <span>HTML5 & CSS3</span>
-                        <span>Oracle Linux</span>
-                        <span>Oracle Database</span>
-                        <span>Hardware & Redes</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="projetos" class="sessao-conteudo">
-            <div class="container">
-                <div class="projetos-header">
-                    <h2>Meus Projetos</h2>
-                    <p>Soluções desenvolvidas para otimizar processos e gerar resultados.</p>
-                </div>
-                <div id="container-projetos" class="grid-projetos">
-                    </div>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <div class="container footer-content">
-            <p>&copy; 2026 - Desenvolvido por Railan Tavares Marques</p>
         </div>
-    </footer>
+    </section>
 
-    <script src="script.js"></script>
+    <section id="sobre" class="sessao-conteudo bg-light">
+        <div class="container grid-layout">
+
+            <div class="sobre-texto">
+                <h2>Sobre Mim</h2>
+
+                <p>
+                    Sou natural de Corrente, Piauí, e apaixonado por tecnologia e aprendizado contínuo.
+                </p>
+
+                <p>
+                    Minha trajetória combina uma base técnica sólida com uma visão educacional e estratégica,
+                    permitindo desenvolver soluções com mais eficiência e propósito.
+                </p>
+
+                <p>
+                    Atualmente, foco na área de Sistemas para Internet,
+                    criando aplicações modernas e voltadas para problemas reais.
+                </p>
+
+                <div class="foto-perfil-container">
+                    <img src="foto-perfil.jpeg" alt="Foto de Railan Tavares Marques segurando diploma" class="foto-perfil">
+                </div>
+            </div>
+
+            <div class="sobre-skills">
+
+                <h3>🎓 Formação Acadêmica</h3>
+                <ul class="lista-customizada">
+                    <li><strong>Tecnologia em Sistemas para Internet</strong> – UPAPI / UESPI (<em>Em andamento</em>)</li>
+                    <li><strong>Pós-Graduação em Informática na Educação</strong> – Instituto Federal de Minas Gerais (IFMG)</li>
+                    <li><strong>Licenciatura Plena em Pedagogia</strong> – UESPI (Concluído em 2019)</li>
+                    <li><strong>Técnico em Informática</strong> – CEETI (Concluído em 2012)</li>
+                </ul>
+
+                <h3>📜 Especializações e Aperfeiçoamento</h3>
+                <ul class="lista-customizada">
+                    <li><strong>Sistemas Embarcados</strong> – Instituto Federal do Ceará (IFCE)</li>
+                    <li><strong>Gestão da Educação Inclusiva na Era do Acesso Digital</strong> – UFJF</li>
+                </ul>
+
+
+                <h3>💻 Front-end</h3>
+                <div class="tags-skills">
+                    <img alt="HTML" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+                    <img alt="CSS" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+                    <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+                </div>
+
+                <h3>⚙️ Back-end</h3>
+                <div class="tags-skills">
+                    <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+                    <img alt="Flask" src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white">
+                </div>
+
+                <h3>🗄️ Banco de Dados e Infraestrutura</h3>
+                <div class="tags-skills">
+                    <img alt="Oracle" src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white">
+                    <img alt="SQL Server" src="https://img.shields.io/badge/Microsoft_SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white">
+                    <img alt="Linux" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos" class="sessao-conteudo">
+        <div class="container">
+
+            <div class="projetos-header">
+                <h2>Projetos</h2>
+                <p>Alguns trabalhos desenvolvidos por mim</p>
+            </div>
+
+            <div id="container-projetos" class="grid-projetos">
+                </div>
+        </div>
+    </section>
+
+    <section id="contato" class="sessao-conteudo bg-light">
+        <div class="container contato">
+            <h2>Contato</h2>
+            <p>Vamos conversar sobre oportunidades ou projetos.</p>
+
+            <a href="https://www.instagram.com/rahy_tavares?igsh=MWVxbHcxZHkxdTFtNg==" class="btn-primary">
+                Entrar em contato
+            </a>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <div class="container footer-content">
+        <p>&copy; 2026 - Railan Tavares Marques</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+
 </body>
 </html>
