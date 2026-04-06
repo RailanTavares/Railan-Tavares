@@ -77,7 +77,7 @@ body {
 .nav-links {
     list-style: none;
     display: flex;
-    gap: 15px; /* Reduzido levemente para compensar o padding dos links */
+    gap: 15px;
     align-items: center;
 }
 
@@ -95,28 +95,16 @@ body {
     background-color: var(--blue-accent);
 }
 
-/* ESTADO ATIVO DOS LINKS COMUNS */
 .nav a.active:not(.btn-nav) {
     background-color: var(--blue-accent);
     color: var(--blue-primary);
 }
 
-/* BOTÃO NAV */
 .btn-nav {
     background-color: var(--blue-primary);
     color: white !important;
     padding: 8px 16px;
     border-radius: 6px;
-}
-
-.btn-nav:hover {
-    background-color: var(--blue-secondary);
-}
-
-/* ESTADO ATIVO DO BOTÃO NAV */
-.btn-nav.active {
-    background-color: var(--blue-secondary);
-    box-shadow: 0 0 0 3px rgba(30, 64, 175, 0.3);
 }
 
 /* =========================
@@ -140,7 +128,6 @@ body {
     color: var(--blue-accent);
 }
 
-/* BOTÕES */
 .hero-buttons {
     display: flex;
     justify-content: center;
@@ -162,7 +149,6 @@ body {
     transform: translateY(-3px);
 }
 
-/* BOTÃO SECUNDÁRIO */
 .btn-secondary {
     border: 2px solid white;
     color: white;
@@ -202,7 +188,6 @@ h2::after {
     margin-top: 10px;
 }
 
-/* AJUSTE: Centraliza a barrinha azul debaixo do título nas seções centralizadas */
 .projetos-header h2::after,
 .contato h2::after {
     margin-left: auto;
@@ -232,44 +217,127 @@ h2::after {
     border-radius: var(--radius);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
     border: 4px solid var(--white);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.foto-perfil:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
+    transition: 0.3s;
 }
 
 /* =========================
-   LISTA
+   TIMELINE
 ========================= */
-.lista-customizada {
-    list-style: none;
-    margin-bottom: 30px;
+.timeline {
+    position: relative;
+    padding: 20px 0;
+    margin-bottom: 35px;
 }
 
-.lista-customizada li {
-    margin-bottom: 10px;
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 7px;
+    top: 0;
+    width: 2px;
+    height: 100%;
+    background: #e2e8f0;
+}
+
+.timeline-item {
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 25px;
+}
+
+.timeline-dot {
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #cbd5e1;
+    border: 3px solid var(--white);
+    z-index: 2;
+}
+
+.active-item .timeline-dot {
+    background: var(--blue-secondary);
+    box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.2);
+}
+
+.timeline-date {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--blue-primary);
+}
+
+.timeline-content h4 {
+    font-size: 1rem;
+    margin-bottom: 3px;
+}
+
+.timeline-content p {
+    font-size: 0.9rem;
     color: var(--text-muted);
 }
 
 /* =========================
-   SKILLS
+   HABILIDADES (TECH STACK) - CENTRALIZADO E DESTACADO
 ========================= */
+.habilidades-container {
+    margin: 60px auto 0; /* O "auto" centraliza o bloco na horizontal */
+    max-width: 800px; /* Controla a largura para não ficar muito esticado na tela */
+    padding: 40px;
+    background-color: var(--white);
+    border-radius: var(--radius);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e2e8f0;
+}
+
+.habilidades-container h3 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: var(--blue-primary);
+    font-size: 1.4rem;
+}
+
+.skill-group {
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed #cbd5e1;
+}
+
+.skill-group:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.skill-label {
+    display: block;
+    text-align: center;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--blue-dark);
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
 .tags-skills {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
-    margin-bottom: 20px;
+    justify-content: center;
+    gap: 12px;
 }
 
 .tags-skills img {
-    height: 28px;
-    transition: transform 0.2s;
+    height: 30px;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .tags-skills img:hover {
-    transform: scale(1.05);
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.15);
 }
 
 /* =========================
@@ -293,7 +361,7 @@ h2::after {
     transition: 0.3s;
     border: 1px solid #e2e8f0;
     display: flex;
-    flex-direction: column; /* Ajuda na organização flexível */
+    flex-direction: column; 
 }
 
 .card-projeto:hover {
@@ -301,38 +369,23 @@ h2::after {
     box-shadow: 0 15px 30px rgba(0,0,0,0.08);
 }
 
-.card-projeto h3 {
-    margin-bottom: 10px;
-}
-
-.card-projeto p {
-    color: var(--text-muted);
-    margin-bottom: 20px;
-    flex-grow: 1; /* Faz a descrição ocupar o espaço disponível e empurrar a imagem/link para baixo uniformemente */
-}
-
-/* =========================
-   IMAGENS DOS PROJETOS (NOVO)
-========================= */
 .img-projeto {
     width: 100%;
     height: auto;
     max-height: 220px;
-    object-fit: contain; /* Ajusta a imagem sem cortar ou distorcer */
+    object-fit: contain; 
     border-radius: 8px;
     margin-bottom: 20px;
-    background-color: var(--bg-main); /* Fundo sutil caso a imagem seja png transparente */
+    background-color: var(--bg-main); 
     padding: 10px;
-    border: 1px solid #e2e8f0;
 }
 
-/* BOTÃO CARD */
 .btn-link {
     text-decoration: none;
     color: var(--blue-primary);
     font-weight: bold;
     display: inline-block;
-    margin-top: auto; /* Garante que o botão fique na base do card */
+    margin-top: auto; 
 }
 
 /* =========================
@@ -342,9 +395,27 @@ h2::after {
     text-align: center;
 }
 
-.contato p {
-    margin-bottom: 20px;
+.botoes-contato {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 20px;
 }
+
+.btn-social {
+    color: white;
+    padding: 10px 20px;
+    font-size: 0.95rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn-whatsapp { background-color: #25D366; }
+.btn-instagram { background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); }
+.btn-github { background-color: #24292e; }
 
 /* =========================
    FOOTER
@@ -360,19 +431,10 @@ footer {
    RESPONSIVO
 ========================= */
 @media (max-width: 768px) {
-
-    .grid-layout {
-        grid-template-columns: 1fr;
-    }
-
-    .hero h1 {
-        font-size: 2.2rem;
-    }
-
-    .nav {
-        flex-direction: column;
-        gap: 15px;
-        height: auto;
-        padding: 20px 0;
-    }
+    .grid-layout { grid-template-columns: 1fr; }
+    .hero h1 { font-size: 2.2rem; }
+    .nav { flex-direction: column; gap: 15px; height: auto; padding: 20px 0; }
+    
+    /* Ajuste para telas menores no bloco centralizado */
+    .habilidades-container { margin-top: 40px; padding: 20px; }
 }
