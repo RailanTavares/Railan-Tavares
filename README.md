@@ -1,51 +1,58 @@
 
-# Railan-Tavares <img width="38" alt="image" src="https://github.com/user-attachments/assets/174a7f51-02d8-4f2f-b649-b0f0dd3e9cfe" />
-
-Sou natural de Corrente, Piauí, e um entusiasta da tecnologia dedicado ao aprendizado contínuo. Minha trajetória profissional une uma base técnica sólida com uma visão educacional e estratégica, o que me permite encarar desafios de desenvolvimento de software com uma perspectiva diferenciada.
-Atualmente, foco meu desenvolvimento na área de Sistemas para Internet, buscando criar soluções eficientes, inovadoras e que resolvam problemas reais do cotidiano.
-"[rahy_tavares](https://www.instagram.com/rahy_tavares?igsh=MWVxbHcxZHkxdTFtNg==)"
-
-<p align="left">
-  <a href="https://github.com/RailanTavares">
-    <img alt="followers" title="Siga-me no Github" src="https://custom-icon-badges.demolab.com/github/followers/RailanTavares?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white"/>
-  </a>
-
-  <a href="https://github.com/RailanTavares/Plate-editor-pro">
-    <img alt="total stars" title="Total de estrelas no GitHub" src="https://custom-icon-badges.demolab.com/github/stars/RailanTavares/Plate-editor-pro?color=ff69b4&style=for-the-badge&labelColor=d14789&logo=star"/>
-  </a>
-
-  <a href="https://wa.me/5589999812492" target="_blank">
-    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"/>
-  </a>
-
-
-## $\color{blue}{\text{Linguagens e Tecnologias}}$
----
-
-### 💻 Front-end
-<p align="left">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-</p>
-
-### ⚙️ Back-end
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" />
-</p>
-
-### 🗄️ Banco de Dados e Infraestrutura
-<p align="left">
-  <img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white" />
-  <img src="https://img.shields.io/badge/Microsoft_SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-</p>
-
----
-## 📊 Estatísticas do GitHub
+# 🚀 Portfólio Pessoal | Railan Tavares Marques
 
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=RailanTavares&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" alt="Estatísticas do GitHub de Railan Tavares"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RailanTavares&layout=compact&langs_count=7&theme=dracula" alt="Linguagens mais usadas por Railan Tavares"/>
+  <img src="https://img.shields.io/badge/Status-Em%20Desenvolvimento-blue?style=for-the-badge" alt="Status">
+  <img src="https://img.shields.io/github/languages/top/RailanTavares/Railan-Tavares?style=for-the-badge" alt="Top Language">
 </p>
+
+> **"Desenvolvedor de Sistemas para Internet movido pela curiosidade tecnológica."**
+
+Este repositório contém o código-fonte do meu portfólio profissional, desenvolvido para apresentar minhas habilidades em desenvolvimento Full-Stack, infraestrutura de dados e minha trajetória acadêmica que une Educação e Tecnologia.
+
+---
+
+## 💻 Sobre o Projeto
+
+O portfólio foi construído com foco em **performance e responsividade**, utilizando uma estrutura limpa e moderna. 
+- **Frontend:** HTML5, CSS3 (com variáveis e Grid Layout) e JavaScript Vanilla.
+- **Dinamismo:** Os projetos são renderizados dinamicamente via JavaScript, facilitando a manutenção e adição de novos trabalhos.
+- **Design:** Focado em UX, com menu interativo e timeline acadêmica estilizada.
+
+---
+
+## 🛠️ Tecnologias e Ferramentas
+
+### Desenvolvimento Full-Stack
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
+
+### Dados e Infraestrutura
+![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
+![SQL Server](https://img.shields.io/badge/Microsoft_SQL_Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+---
+
+## 📂 Projetos em Destaque
+
+Alguns dos sistemas que você encontrará detalhados no portfólio:
+
+1.  **Plate Editor Pro:** Aplicação Flask para criação automatizada de placas de ofertas para supermercados. [Ver Repositório](https://github.com/RailanTavares/Plate-editor-pro)
+2.  **Local Video Streaming System:** Plataforma de marketing para Smart TVs em rede local, otimizando a experiência no varejo. [Ver Repositório](https://github.com/RailanTavares/Local-Video-Streaming-System)
+
+---
+
+## 🎓 Formação e Trajetória
+
+Minha base combina o rigor técnico da informática com a visão estratégica da educação:
+- **Tecnologia em Sistemas para Internet** (UAPI/UESPI) - *Em curso*
+- **Pós-Graduação em Informática na Educação** (IFMG)
+- **Graduação em Pedagogia** (UESPI)
+- **Técnico em Informática** (CEETI)
+- **Aperfeiçoamento em Gestão da Educação Inclusiva na era do Acesso Digital** (UFJF)
+- **Capacitação Profissional em Sistemas Embarcados** (IFCE)
+---
