@@ -13,7 +13,7 @@ const meusProjetos = [
         titulo: "Local Video Streaming System",
         descricao: "Plataforma de streaming local projetada para gerenciar e transmitir conteúdo multimídia de marketing diretamente para Smart TVs via rede local. Diferente de soluções baseadas em nuvem, o sistema opera inteiramente via rede local, garantindo estabilidade e zero dependência de internet para a exibição de conteúdos. Com um painel administrativo centralizado, é possível gerenciar playlists de vídeo, anúncios programados e automações sonoras, como o recurso de 'Hora Certa' e vinhetas personalizadas, elevando a experiência de vendas no varejo.",
         tags: ["Python", "Flask", "Redes"],
-        link: "https://github.com/RailanTavares/local-video-streaming",
+        link: "https://github.com/RailanTavares/Local-Video-Streaming-System",
         imagem: "local-video-styreaming.png" 
     }
 ];
